@@ -70,11 +70,12 @@ const dataAmountDecimal = {
     "description": "This is my description"
 }
 
-// const dataWrongJsonFormat = {
-// 	"callback_url": "https://updatesite.com/callback"
-// 	"amount": 123123
-//     "description": "This is my description"
-// }
+//Still no solution to create wrong format without break all scripts
+const dataWrongJsonFormat = {
+	"callback_url": "https://updatesite.com/callback",
+	"amount": 123123,
+    "description": "This is my description"
+}
 
 const dataContainUnknownParam = {
 	"callback_url": "https://updatesite.com/callback",
