@@ -1,0 +1,20 @@
+{
+  "name": "xendittest",
+  "version": "1.0.0",
+  "description": "Bismillah masuk",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^27.5.1"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "supertest": "^6.2.2"
+  },
+  "test": "jest"
+}
